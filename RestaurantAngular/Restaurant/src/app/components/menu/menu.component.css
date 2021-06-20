@@ -1,0 +1,21 @@
+.table {
+  margin-top: 50px;
+}
+.container {
+  margin-top: 50px;
+}
+.order {
+  width: 500px;
+}
+.orderbtn {
+  width: 200px;
+  margin-bottom: 50px;
+}
+#order-sum {
+  font-size: 24px;
+  margin-top: 50px;
+  padding: 0;
+}
+.btn {
+  margin: 5px;
+}

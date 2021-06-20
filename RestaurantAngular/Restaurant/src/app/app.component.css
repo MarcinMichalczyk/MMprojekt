@@ -1,0 +1,13 @@
+.navbar-nav {
+  width: 100vw;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+  padding-top: 15px;
+}
+#podpis {
+  font-size: 18px;
+}
+#title {
+  cursor: pointer;
+}

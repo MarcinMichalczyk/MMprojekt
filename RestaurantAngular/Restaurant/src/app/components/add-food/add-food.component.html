@@ -1,0 +1,23 @@
+
+<div class=" container submit-form">
+
+        <div class="form-group">
+            <label for="foodName">Nazwa dania</label>
+            <input type="text" class="form-control" required [(ngModel)]="menu.foodName" name="foodName" />
+        </div>
+        <div class="form-group">
+            <label for="foodPrice">Cena</label>
+            <input type="number" min=0 class="form-control" required [(ngModel)]="menu.foodPrice" name="foodPrice" />
+        </div>
+
+        Kategoria
+        <select class="form-select" aria-label="Default select example" required [(ngModel)]="menu.foodCategory" >
+            <option value="Zupa">Zupa</option>
+            <option value="Danie głowne">Danie głowne</option>
+            <option value="Przystawka">Przystawka</option>
+            <option value="Deser">Deser</option>
+            <option value="Napój">Napój</option>
+          </select>
+
+        <button (click)="addFood()" class="btn btn-primary" [routerLink]="['/menu']">Utwórz</button>
+</div>

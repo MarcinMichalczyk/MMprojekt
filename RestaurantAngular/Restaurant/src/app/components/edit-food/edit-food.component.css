@@ -1,0 +1,14 @@
+.container {
+  width: 500px;
+  margin: auto;
+}
+.list-component {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.btn {
+  padding: 15px;
+  margin: 10px;
+  width: 450px;
+}
